@@ -1,10 +1,16 @@
+2020 Aug 30: Additional Data
+The accompanying dataset "cleaned_data.txt" is a manipulation of the base dataset as follows:
+- Each row represents the average measurements of the features for a given subject and activity.
+- Only mean and standard deviation measurement features were summarized.
+- Columns are specified in "summary_features.txt".
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
+DITEN - Universit? degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
