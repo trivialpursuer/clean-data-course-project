@@ -3,6 +3,10 @@ The accompanying dataset "cleaned_data.txt" is a manipulation of the base datase
 - Each row represents the average measurements of the features for a given subject and activity.
 - Only mean and standard deviation measurement features were summarized.
 - Columns are specified in "summary_features.txt".
+- The script run_analysis.R is used to extract and clean the data. It does the following:
+  1. Reads in the test and training data and merges both sets with the activities and subject files, then merges the two together.
+  2. Extracts only those columns that measure a mean or standard deviation for that particular feature.
+  3. Groups the data based on Subject and Activity and computes the mean of every measurement column, storing the results in a new data table.
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
